@@ -1,0 +1,43 @@
+p {
+font-size:40px;
+color:#FFF;
+background-color:#F08080;
+}
+
+a {
+font-size:20px;
+color:#8B0000;
+background-color:pink;
+}
+
+b {
+font-size:10px;
+color:#000000;
+border:solid 1px
+ }
+
+ .one {
+margin-top:-140px;
+background-color:white;
+border:solid 3px
+}
+
+img{
+width:50%;
+float:left;
+}
+a{
+width:30%;
+float:left;
+}
+
+b{
+width:50%;
+float:left;
+}
+
+footer {
+	margin-left:110px;
+	width:30%;
+	float:bottom;
+}
