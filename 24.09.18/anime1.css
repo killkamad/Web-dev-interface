@@ -1,0 +1,38 @@
+body{
+	margin:0;
+	padding:0;
+	background: url(Images/dota2.jpg);
+	background-size:cover;
+}
+
+
+.gabe{
+	margin-left:300px;
+	width:300px;
+	padding:100px;
+	position:relative;
+	z-index:1;
+	
+
+}
+
+.lico{
+	margin-left:300px;
+	width:10%;
+	position:absolute;
+	top:170px;
+	left:170px;
+	animation: linear 10s Roflan infinite;
+	z-index:0;
+}
+
+
+@keyframes Roflan {
+      0%  {width:150px;}
+	  24% {z-index:0;}
+      25% {left: 400px; top: 130px; z-index:2;}
+      50% {width:128px;}
+	  74% {z-index:2;}
+      75% {left: 80px; top: 300px; z-index:0;}
+      100%{width:72px; transform: rotate(360deg);}
+}
