@@ -30,17 +30,20 @@ body{
   vertical-align: middle;
   line-height: 100px;
   animation-name: Roflan;
-  animation-duration: 2s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 @keyframes Roflan {
-      0% {transform: rotate(0deg); left: 100px; top: 0px;}
-      25% {left: 200px; top: 200px;}
-      50% {left: 0px; top: 200px;}
-      75% {left: 100px; top: 0px;}
-      100% {transform: rotate(360deg); left: 100px; top: 0px;}
+      0%  {width:150px;}
+	  24% {z-index:0;}
+      25% {left: 400px; top: 130px; z-index:2;}
+      50% {width:128px;}
+	  74% {z-index:2;}
+      75% {left: 80px; top: 300px; z-index:0;}
+      100%{width:72px; transform: rotate(360deg);}
 }
+
 
 .gabe{
 	margin-left:500px;
