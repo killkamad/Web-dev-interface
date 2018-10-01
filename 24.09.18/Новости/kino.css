@@ -1,0 +1,181 @@
+img {
+    margin-left: auto;
+	margin-right: auto;
+    display: block ;
+	width: auto;
+
+}
+
+
+
+a{
+	color:black;
+	text-decoration:none;
+}
+
+
+* {
+	padding:0;
+	margin:0;
+}
+
+body{
+	background-color:black;
+}
+
+
+
+
+
+.header{
+	display:flex;
+	justify-content:space-between;
+	padding:10px;		
+	color: #fff;
+	flex-direction:row;
+	flex-wrap:wrap;
+	background-color: red;
+}
+	
+.header__section{
+	display:flex;
+	align-items:center;
+	background-color: red;
+}
+
+.header__item{
+	padding:10px 15px;
+	font-size:30px;
+	margin-left:5px;
+}
+
+.header__item:hover{
+	background-color:yellow;
+	border-radius:4px
+}
+.headerlogo{
+	font-size:50px;
+	font-weight: bold;
+	color: Indigo;
+}
+.headButton{
+	cursor:pointer;
+}
+
+.fon{
+	padding: 50px;
+    height: 2300px;
+    position: relative;
+    background: yellow;
+    text-align: right;
+    border: 5px solid purple;
+    text-align: center;
+}
+
+.telo{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+.bl1 {
+	display:flex;
+	width:100%;
+    background: red; 
+    text-align: center;
+	font-size: 80px;
+	justify-content:center;
+	border: 2px solid ;
+  }
+  
+ .block2 {
+	margin:5px;
+	display:flex;
+    width: 25%;
+    height: 25% ;
+    background: red; 
+    border: 2px solid  ;
+    text-align: center;
+	font-size: 20px;
+
+  }
+
+
+
+@media only screen and (max-width: 500px) {
+.header{
+	display:flex;
+	justify-content:space-between;
+	padding:10px;		
+	color: #fff;
+	flex-direction:row;
+	flex-wrap:wrap;
+	background-color: red;
+}
+	
+.header__section{
+	display:flex;
+	align-items:center;
+	background-color: red;
+}
+
+.header__item{
+	padding:10px 15px;
+	font-size:30px;
+	margin-left:5px;
+}
+
+.header__item:hover{
+	background-color:yellow;
+	border-radius:4px
+}
+.headerlogo{
+	font-size:50px;
+	font-weight: bold;
+	color: Indigo;
+}
+.headButton{
+	cursor:pointer;
+}
+
+.fon{
+	padding: 50px;
+    height: 2300px;
+    position: relative;
+    background: yellow;
+    text-align: right;
+    border: 5px solid purple;
+    text-align: center;
+}
+
+.telo{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+.bl1 {
+	display:flex;
+	width:100%;
+    background: red; 
+    text-align: center;
+	font-size: 80px;
+	justify-content:center;
+	border: 2px solid ;
+  }
+  
+ .block2 {
+	margin:5px;
+	display:flex;
+    width: 25%;
+    height: 25% ;
+    background: red; 
+    border: 2px solid  ;
+    text-align: center;
+	font-size: 20px;
+
+  }
+
+}
