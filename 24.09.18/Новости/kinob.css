@@ -39,6 +39,55 @@ img {
 }
 
 
+.comment {
+    height: auto;
+    justify-content: center;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+    margin: 10px;
+    font-size: 2em;
+}
+
+input {
+    font-size: 1em;
+    width: 500px;
+    height: auto;
+}
+textarea {
+    font-size: 1em;
+    width: 500px;
+    height: 300px;
+}
+button {
+    font-size: 1em;
+}
+
+
+.comment {
+    height: auto;
+    justify-content: center;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+    margin: 10px;
+    font-size: 2em;
+}
+
+input {
+    font-size: 1em;
+    width: 500px;
+    height: auto;
+}
+textarea {
+    font-size: 1em;
+    width: 500px;
+    height: 300px;
+}
+button {
+    font-size: 1em;
+}
+
 @media only screen and (max-width: 900px) {
 
     .container {
@@ -71,6 +120,55 @@ img {
 
         margin: 10px;
         padding: 0;
+    }
+	
+	
+	    .comment {
+        height: auto;
+        justify-content: center;
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 0;
+        margin: 10px;
+        font-size: 14px;
+    }
+	
+	
+	input {
+        font-size: 14px;
+        width: 160px;
+        height: auto;
+    }
+    textarea {
+        font-size: 14px;
+        width: 160px;
+        height: 60px;
+    }
+    button {
+        font-size: 14px;
+    }
+	
+	.comment {
+        height: auto;
+        justify-content: center;
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 0;
+        margin: 10px;
+        font-size: 14px;
+    }
+    input {
+        font-size: 14px;
+        width: 160px;
+        height: auto;
+    }
+    textarea {
+        font-size: 14px;
+        width: 160px;
+        height: 60px;
+    }
+    button {
+        font-size: 14px;
     }
 
 }
