@@ -1,0 +1,181 @@
+body{
+	background:url(../Img/Da.png) no-repeat fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family:AugustaModern;
+
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    padding: 0;
+    margin-top: 150px;
+}
+
+.item {
+
+    width: 500px;
+    height: auto;
+
+    text-align: justify;
+    color: white;
+    text-decoration: none;
+
+    margin: 0;
+    padding: 0;
+
+}
+.bg {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 0;
+}
+p {
+    margin: 50px;
+    padding: 0;
+    font-size: 2em;
+}
+img {
+    width: 500px;
+}
+
+
+.comment {
+    height: auto;
+    justify-content: center;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+    margin: 10px;
+    font-size: 2em;
+	color:white;
+}
+
+input {
+    font-size: 1em;
+    width: 500px;
+    height: auto;
+}
+textarea {
+    font-size: 1em;
+    width: 500px;
+    height: 300px;
+}
+button {
+    font-size: 1em;
+}
+
+
+.comment {
+    height: auto;
+    justify-content: center;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+    margin: 10px;
+    font-size: 2em;
+}
+
+input {
+    font-size: 1em;
+    width: 500px;
+    height: auto;
+}
+textarea {
+    font-size: 1em;
+    width: 500px;
+    height: 300px;
+}
+button {
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .container {
+        margin-top: 10px;
+        padding: 0;
+    }
+    .item {
+
+        width: 320px;
+        height: auto;
+
+        margin: 0;
+        padding: 0;
+
+        text-align: justify;
+        color: black;
+        text-decoration: none;
+
+    }
+
+    p {
+        font-size: 14px;
+        margin: 10px;
+        padding: 0;
+    }
+
+    img {
+        display: flex;
+        width: 300px;
+
+        margin: 10px;
+        padding: 0;
+    }
+	
+	
+	    .comment {
+        height: auto;
+        justify-content: center;
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 0;
+        margin: 10px;
+        font-size: 14px;
+    }
+	
+	
+	input {
+        font-size: 14px;
+        width: 160px;
+        height: auto;
+    }
+    textarea {
+        font-size: 14px;
+        width: 160px;
+        height: 60px;
+    }
+    button {
+        font-size: 14px;
+    }
+	
+	.comment {
+        height: auto;
+        justify-content: center;
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 0;
+        margin: 10px;
+        font-size: 14px;
+    }
+    input {
+        font-size: 14px;
+        width: 160px;
+        height: auto;
+    }
+    textarea {
+        font-size: 14px;
+        width: 160px;
+        height: 60px;
+    }
+    button {
+        font-size: 14px;
+    }
+
+}

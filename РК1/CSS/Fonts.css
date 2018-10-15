@@ -1,0 +1,12 @@
+@font-face {
+    font-family: LifeCraft; /* Гарнитура шрифта */
+    src: url(Fonts/LifeCraft.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Behrens; /* Гарнитура шрифта */
+    src: url(Fonts/Behrens.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: AugustaModern; /* Гарнитура шрифта */
+    src: url(Fonts/AugustaModern.ttf); /* Путь к файлу со шрифтом */
+}
