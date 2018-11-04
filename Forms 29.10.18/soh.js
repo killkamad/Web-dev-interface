@@ -1,6 +1,6 @@
 var form = document.querySelector("form");
 var list = document.getElementById('list');
-var userInput = document.getElementById('user-todo');
+var userInput = document.getElementById('name');
 
 var todos = localStorage.getItem('todos') ?
    JSON.parse(localStorage.getItem('todos')) :
@@ -25,4 +25,5 @@ event.preventDefault();
 todos.push(userInput.value);
 localStorage.setItem('todos', JSON.stringify(todos));
 makeItem(userInput.value);
+
 });

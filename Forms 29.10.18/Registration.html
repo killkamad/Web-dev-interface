@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html> 
+<head>
+     <meta charset="utf-8">
+     <title>Registration</title>
+     <link rel="stylesheet" type="text/css" href="CSS.css" />
+
+</head>
+<body>
+
+<div class="Forma">
+	<img src="old.jpg">
+	
+	<form action="" method="post" name="test" id="form">
+	
+		<div class="dws-input">
+			<input type="text" name="name" placeholder="Имя" id="name">
+		</div>
+		<ul id='list'></ul>
+		<div class="dws-input">
+			<input type="text" name="email" placeholder="Email" id="email">
+		</div>
+		<div class="dws-input">
+			<input type="password" name="password" placeholder="Пароль" id="password">
+		</div>
+		<div class="dws-input">
+			 <input type="password" name="RePassword" placeholder="Введите пароль" id="RePassword">
+		</div>
+		<div class="decor">
+		<span style="font-size:26px;">Укажите пол:</span>
+			<input type="radio" name="state" id="state1" value="Мужской"/>
+			<label for="state1" style="color:red">Женский</label>
+			<input type="radio" name="state" id="state2" value="Женский"/>
+			<label for="state2" style="color:blue">Мужской</label>
+		</div>
+		<input class="dws-button" type="button" onclick="valid(document.getElementById('form'))" name="submit" value="Готово"><br/>
+		
+		
+		
+		<a style="color:white; text-decoration: underline;" href="#">Восстановить пароль</a>
+	</form>
+</div> 
+<script src ="JS.js"></script>
+<script src ="soh.js"></script>
+ </body>
+</html>
+
+
+    
+</body>
+
+</html>
