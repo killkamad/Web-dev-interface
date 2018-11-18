@@ -1,0 +1,99 @@
+/*Login*/
+.button{
+  text-decoration:none;
+  text-align:center;
+  padding:11px 32px;
+  border:solid 1px #f00c41;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius: 6px;
+  font:11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  color:#E5FFFF;
+  margin-top: 7px;
+  margin-left: 135px;
+  background-color:#d10f0f;
+  background-image: -moz-linear-gradient(top, #d10f0f 0%, #000000 100%);
+  background-image: -webkit-linear-gradient(top, #d10f0f 0%, #000000 100%);
+  background-image: -o-linear-gradient(top, #d10f0f 0%, #000000 100%);
+  background-image: -ms-linear-gradient(top, #d10f0f 0% ,#000000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );
+  background-image: linear-gradient(top, #d10f0f 0% ,#000000 100%);
+  -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+  -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+  box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+  text-shadow: 0px 1px 0px #cccccc;
+  filter: dropshadow(color=#cccccc, offx=0, offy=1); }
+}
+
+<style>
+
+  html { height: 100%; }
+  body {
+   margin: 1; /* Убираем отступы */
+   background: url(https://storage.googleapis.com/images.frenchly.us/2017/01/plane.jpg); /* Параметры фона */
+   background-size: cover; /* Фон занимает всю доступную площадь */
+  }
+
+</style>
+
+/* Поля и их значения стилей */
+    p.reg{
+      margin-left: 180px;
+    }
+    p.reg{
+      margin-left: 155px;
+    }
+    table.table{
+      margin-left: 130px;
+    }
+    input.user-input{
+      width: 200px;
+      height: 25px;
+    }
+
+    form {
+      opacity: 0.90;
+      border: 2px solid black; /* Параметры границы */
+      padding: 30px; /* Поля вокруг текста */
+      background-color: #363636;
+      border-radius: 10px;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      margin: 150px auto;
+      width: 500px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      -webkit-box-shadow:  0px 10px 20px 0px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 1px 7px 6px rgba(178, 34, 34); /* Параметры тени */
+    }
+
+    label {
+      color:gray;
+      font-size:18px;
+      width: 200; /* Ширина слоя */
+      margin:3; /* Значение отступов */
+      padding: auto; /* Поля вокруг текста */
+      background-color: #363636;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    td select,
+    td input {
+      align:right;
+      margin: 3px;
+      width: 200px;
+    }
+
+
+    .button1 {
+          opacity: 0.70;
+          color: #DCDCDC;
+          border: 1px solid #B22222;
+          background-color: #000000;
+          margin-left: 2px ;
+          text-align: center;
+          padding: 8px 20px;
+          text-decoration: none;
+          box-shadow: 0px 0px 2px 2px rgba(178, 34, 34); /* Параметры тени */
+      }

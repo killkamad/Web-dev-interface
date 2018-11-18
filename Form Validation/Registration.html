@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html> 
+<head>
+     <meta charset="utf-8">
+     <title>Registration</title>
+     <link rel="stylesheet" type="text/css" href="css/CSS.css">
+
+</head>
+<body>
+<section id="add-user-module" >
+
+<div class="Forma">
+	<img src="Img/old.jpg">
+	
+	<form name="form" method="post" action="" id="forma">
+	
+		<div class="dws-input">
+			 <input type="text" name="from" placeholder="Имя" data-key='name' class='user-input' id="name" onkeyup="checkParams()" autocomplete="off"/>
+		</div>
+		<div class="dws-input">
+			 <input type="text" name="frem" placeholder="Фамилия" data-key='lastname' class='user-input' id="famil" onkeyup="checkParams()" autocomplete="off">
+		</div>
+		<div class="dws-input">
+			<input type="number" name="age" placeholder="Введите ваш возраст" data-key='age' class='user-input' id="age" onkeyup="checkParams()" autocomplete="off">
+		</div>
+		<div class="dws-input">
+			<input type="tel" name="tel" placeholder="Мобильный номер" data-key='tel' class='user-input' id="tel" onkeyup="checkParams()" autocomplete="off"/>
+		</div>
+		<div class="dws-input">
+			<input type="text" name="mail" placeholder="Почта" data-key='email' class='user-input' id="mail" onkeyup="checkParams()" autocomplete="off">
+		</div>
+		<div class="dws-input">
+			 <input type="text" name="mail2" placeholder="Повторите почту" data-key='remail' class="user-input" id="mail2" onkeyup="checkParams()" autocomplete="off">
+		</div>
+		<div class="dws-input">
+			<input name="password" type="password" placeholder="Пароль" data-key='password' class='user-input' id="password" onkeyup="checkParams()" autocomplete="off">
+		</div>
+		<div class="dws-input">
+			<input name="password2" type="password" placeholder="Повторите пароль" data-key='repassword' class="user-input" id="password2" onkeyup="checkParams()" autocomplete="off">
+		</div>
+		<div class="dws-input">
+			 <select name="to" data-key='gender' class='user-input' id="to" onkeyup="checkParams()" autocomplete="off">
+                  <option></option>
+                  <option value="Male">Мужской пол</option>
+                  <option value="Female">Женский пол</option>
+                </select>
+		</div>
+		<div class="dws-input">
+			<button type='button' class="dws-button" id="add-user-btn" onclick="validate(this.form)" disabled>Зарегистрироваться</button>
+			<input type="button" class="dws-button" onclick="resert()" value="Сбросить">
+		</div>
+		
+		
+	</form>
+</div> 
+
+  <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script type="text/javascript" src="firebase/app.js"></script>
+  <script type="text/javascript" src="javascript/register_error.js"></script>
+
+
+</body>
+
+</html>

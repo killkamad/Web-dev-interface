@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta charset="utf-8">
+    <title>SignUp</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/CSS.css" />
+
+</head>
+<body>
+<div class="Forma" style="height:500px;">
+<img src="Img/old.jpg">
+
+  <form name="frm">
+	<div class="dws-input">
+			<input type="text" name="from" class="user-input" placeholder="Логин"/>
+		</div>
+	<div class="dws-input">
+			<input name="password" class="user-input" type="password" placeholder="Пароль">
+		</div>
+	<div class="dws-input">
+		<input class="dws-button" type="button" onclick="validate(this.form)" value="Войти">
+		<input class="dws-button" type="button" onclick="resert()" value="Отменить">
+	</div>
+ </form>
+</div>
+	<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+    <script type="text/javascript" src="javascript/log.js"></script>
+    <script type="text/javascript" src="javascript/login_error.js"></script>
+ </body>
+</html>

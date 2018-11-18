@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Firebase CRUD Javascript</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <h1>Firebase CRUD with Javascript
+        <br/><small><em>User App</em></small>
+    </h1>
+
+
+    <section id="add-user-module" >
+        <button id="open-add-user-form-btn">+</button>
+        <form>
+            <h2>Add User</h2>
+            Name:<br>
+            <input type='text' data-key='name' class='user-input'><br>
+            LastName:<br>
+            <input type='text' data-key='lastname' class='user-input'><br>
+            Age:<br>
+            <input type='number' name='age' data-key='age' class='user-input'><br>
+            Telephone:<br>
+            <input type='number' name='tel' data-key='tel' class='user-input'><br>
+            Email:<br>
+            <input type='text' data-key='email' class='user-input'><br>
+			Remail:<br>
+            <input type='text' data-key='remail' class='user-input'><br>
+            Password:<br>
+            <input type='password' data-key='password' class='user-input'><br>
+			RePassword:<br>
+            <input type='password' data-key='repassword' class='edit-user-input'><br>
+            Gender:<br>
+            <select name="to" data-key='gender' class='user-input'>
+              <option></option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+            <button type='button' id="add-user-btn">add user</button>
+        </form>
+    </section>
+
+    <section id="edit-user-module">
+        <form>
+            <h2>Edit user</h2>
+            <input type="hidden" class="edit-userid">
+            Name:<br>
+            <input type='text' data-key='name' class='edit-user-input'><br>
+            LastName:<br>
+            <input type='text' data-key='lastname' class='edit-user-input'><br>
+            Telephone:<br>
+            <input type='tel' name='tel' data-key='tel' class='edit-user-input'><br>
+            Age:<br>
+            <input type='number' data-key='age' class='edit-user-input'><br>
+            Email:<br>
+            <input type='text' data-key='email' class='edit-user-input'><br>
+            Password:<br>
+            <input type='password' data-key='password' class='edit-user-input'><br>
+			RePassword:<br>
+            <input type='password' data-key='repassword' class='edit-user-input'><br>
+            Gender:
+            <select name="to" data-key='gender' class='user-input'>
+              <option></option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+            <button type='button' id="edit-user-btn">save</button>
+        </form>
+    </section>
+
+
+    <!-- show user module -->
+    <ul id="user-list"></ul>
+    <div id="user-detail"></div>
+
+
+
+
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</html>
