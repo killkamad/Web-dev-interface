@@ -1,0 +1,9 @@
+yarn add redux react-redux
+yarn add redux-saga
+
+надо открыть 2 коммандые строки , шобы все работало
+cd server
+node app.js
+
+
+npm install --save wc
