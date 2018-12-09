@@ -1,0 +1,25 @@
+.landing,
+.create-account,
+.landing-logo {
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.landing {
+
+    justify-content: center;
+}
+
+.landing-logo {
+
+    text-align: center;
+}
+
+.landing > :not(:last-child),
+.create-account > :not(:last-child) {
+
+    margin-bottom: 12px;
+}

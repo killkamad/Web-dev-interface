@@ -1,0 +1,50 @@
+@import '~antd/dist/antd.css';
+
+
+.App,
+.input-area,
+.content {
+
+    width: 100%;
+}
+
+body {
+	background:url(dd.png) no-repeat fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+.App {
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 48px;
+	
+}
+
+.content {
+
+    display: flex;
+    flex: 1 1 auto;
+    margin-top: 60px;
+}
+
+.ant-btn-primary{
+	background-color:green;
+}
+@media screen and (min-width: 550px) {
+
+    .content {
+        width: 70%;
+        max-width: 575px;
+    }
+}

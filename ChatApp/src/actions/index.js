@@ -1,6 +1,6 @@
 import * as types from '../constants/ActionTypes'
  // eslint-disable-next-line
-import firebase from "firebase"
+//import firebase from "firebase"
 
 let nextMessageId = 0
 // eslint-disable-next-line
